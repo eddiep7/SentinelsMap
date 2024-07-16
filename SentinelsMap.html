@@ -11,7 +11,10 @@
                 mapboxgl.accessToken = 'pk.eyJ1IjoiZWR3YXJkcDciLCJhIjoiY2xzZjZhZnYwMGdrbDJpcXB6MzZsN2lzbSJ9.o11htKQkTmOqa1HNdhtenQ';
                     let map1 = new mapboxgl.Map({
                     container: 'map',
-                    style: 'mapbox://styles/mapbox/light-v10'
+                    style: 'mapbox://styles/mapbox/light-v10',
+                    zoom: 3, // starting zoom
+                    center: [-100, 40], // starting center
+                    projection: 'albers'
                 });
             </script>
         </body>
