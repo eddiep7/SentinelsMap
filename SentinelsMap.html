@@ -21,6 +21,13 @@
                 	center: [-74.5, 40], // starting position [lng, lat]. Note that lat must be set between -90 and 90
                 	zoom: 9 // starting zoom
             	});
+
+		var tenzIcon = L.icon({
+			iconUrl: 'https://cloud.papercrowns.com/image/upload/c_fill,g_face,w_768,h_768,q_auto/v1/sentinels/member/tenz.jpg?v=65af19ceef35d',
+			iconSize: [40, 40], });
+
+		var tenzMarker = L.marker([49.64794199315962, -125.48031072369557],
+					  {icon: tenzIcon}).bindPopup("Gamer Allias: TenZ<br> Name: Tyson Ngo");
         </script>
     </body>
 </html>
