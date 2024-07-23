@@ -28,7 +28,7 @@
 			iconUrl: 'https://cloud.papercrowns.com/image/upload/c_fill,g_face,w_768,h_768,q_auto/v1/sentinels/member/tenz.jpg?v=65af19ceef35d',
 			iconSize: [40, 40], });
 
-		tenz_marker = new mapboxgl.Marker().setLngLat([49.64794199315962, -125.48031072369557]).addTo(map).bindPopup("Gamer Allias: TenZ<br> Name: Tyson Ngo");
+		new mapboxgl.Marker(tenzIcon, {offset: [-30, -35]}).setLngLat([49.64794199315962, -125.48031072369557]).addTo(map);
         </script>
     </body>
 </html>
